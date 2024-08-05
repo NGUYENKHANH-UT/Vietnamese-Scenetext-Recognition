@@ -1,7 +1,5 @@
 
 import torch
-import streamlit as st
-
 import torch.backends.cudnn as cudnn
 from src.craft.craft import CRAFT
 
