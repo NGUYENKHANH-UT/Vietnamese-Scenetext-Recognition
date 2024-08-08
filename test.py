@@ -44,7 +44,7 @@ result_folder = 'result'
 if __name__ == '__main__':
     # ======================  Load model  ================
     net, refine_net = load_model_craft(args=args)
-    detector = load_model_vietocr()
+    detector = load_model_vietocr(args=args)
     
     for k, image_path in enumerate(image_list):
         txt_content = ''
