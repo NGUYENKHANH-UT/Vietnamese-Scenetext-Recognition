@@ -4,4 +4,4 @@ opencv-python
 scikit-image
 scipy
 vietocr
-Pillow<10.0
+Pillow==9.5.0
